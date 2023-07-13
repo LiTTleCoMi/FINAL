@@ -27,6 +27,8 @@ $('.comments-container').on('click', '.submit-edit', function() {
         container.find('.comment-edit').toggle();
         $(this).toggle();
         container.find('.comment').text(`${comment}`);
+        $('.comment-edit').attr('placeholder', 'Comment').removeClass('placeholder-red');
+        $('.edit').attr('value', 'edit');
     }
 
 });
