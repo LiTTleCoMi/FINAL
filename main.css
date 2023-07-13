@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Courier, monospace;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: #ccc;
+}
+
+
+.post-container {
+    position: fixed;
+    padding: 20px 20px;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;
+}
+.post-user {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.post {
+    font-size: 38px;
+}
+.comments-container {
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    margin-top: 121.3px;
+    margin-bottom: 94.5px;
+    flex-direction: column;
+    align-items: center;
+}
+.comments {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #eee;
+}
+.user {
+    font-size: 16px;
+}
+.comment {
+    font-size: 27px;
+}
+.edit {
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    color: rgb(87, 87, 255);
+    right: 165px;
+}
+.delete {
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    color: rgb(87, 87, 255);
+    right: 100px;
+}
+.submit-edit {
+    margin: 10px 0 0 10px;
+    border: none;
+    color: rgb(87, 87, 255);
+    font-size: 20px;
+    display: none;
+}
+.comment-edit {
+    margin: 10px 10px 0 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: none;
+}
+.submit-container {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.submit {
+    font-size: 28px;
+    color: rgb(87, 87, 255);
+    background-color: #eee;
+    border: none;
+}
+.display-input {
+    width: 15%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+.comment-input {
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 20px;
+    padding-left: 10px;
+}
+.placeholder-red::placeholder {
+    color: #ff7777;
+}
